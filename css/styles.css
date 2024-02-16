@@ -8,23 +8,29 @@ body {
 
 .hero-container {
     background-color: #1F2937;
-    padding: 0px 125px;
+    padding: 0px 200px;
 }
 
 .hero-banner {
     display: flex;
+    padding-bottom: 48px;
+    justify-content: space-between;
+}
 
+.hero-info {
+    flex: 1 1 532px;
 }
 
 .hero-info h1 {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
-    flex: 1;
+    margin-bottom: 0;
 }
 
 .hero-info p {
     color: #E5E7EB;
+    margin-top: 8px;
 }
 
 .nav .logo {
@@ -39,6 +45,7 @@ body {
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
+    margin-bottom: 48px;
 }
 
 ul {
@@ -57,16 +64,19 @@ a {
 }
 
 img {
-    flex: 1;
+    flex: 1 1 532px;
     color: #E5E7EB;
+    max-height: 250px;
+    max-width: 532px;
 }
 
 .hero-info button {
     background-color: #3882F6;
-    padding: 4px 16px;
+    padding: 4px 32px;
     color: #E5E7EB;
     border: none;
     font-size: 16px;
-    border-radius: 4px;
+    border-radius: 6px;
     font-weight: bold;
+    height: 32px;
 }
