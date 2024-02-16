@@ -7,19 +7,24 @@ body {
 }
 
 .hero-container {
-    display: flex;
-    flex-direction: column;
     background-color: #1F2937;
+    padding: 0px 125px;
+}
+
+.hero-banner {
+    display: flex;
+
 }
 
 .hero-info h1 {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    flex: 1;
 }
 
 .hero-info p {
-    color: #E5E7EB
+    color: #E5E7EB;
 }
 
 .nav .logo {
@@ -34,12 +39,12 @@ body {
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
-    justify-content: space-around;
 }
 
 ul {
     list-style: none;
     display: flex;
+    margin-left: auto;
 }
 
 li {
@@ -52,6 +57,7 @@ a {
 }
 
 img {
+    flex: 1;
     color: #E5E7EB;
 }
 
