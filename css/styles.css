@@ -127,3 +127,31 @@ a {
     border-radius: 16px;
     box-sizing: border-box;
 }
+
+/* QUOTE SECTION STYLING */
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 25%;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    margin: 0;
+    padding: 8px;
+}
+
+.quote.author {
+    margin-left: auto;
+    margin-right: 10%;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+}
