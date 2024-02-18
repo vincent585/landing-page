@@ -10,7 +10,7 @@ body {
     padding: 0;
 }
 
-/* HEADER AND HERO STYLING */
+/* HEADER AND HERO */
 
 .hero-container {
     background-color: #1F2937;
@@ -97,7 +97,7 @@ a {
     color: #E5E7EB;
 }
 
-/* INFOGRAPHIC SECTION STYLING */
+/* INFOGRAPHIC SECTION */
 
 .infographic {
     display: flex;
@@ -132,7 +132,7 @@ a {
     box-sizing: border-box;
 }
 
-/* QUOTE SECTION STYLING */
+/* QUOTE SECTION */
 
 .quote-container {
     display: flex;
@@ -160,7 +160,7 @@ a {
     font-weight: bold;
 }
 
-/* SIGN UP SECTION STYLING */
+/* SIGN UP SECTION */
 
 .signup-container {
     display: flex;
@@ -201,4 +201,17 @@ a {
 .signup-text .signup-header {
     font-size: 20px;
     font-weight: bold;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    margin-top: auto;
 }
