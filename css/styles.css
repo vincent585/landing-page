@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -152,6 +156,49 @@ a {
     margin-left: auto;
     margin-right: 10%;
     font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* SIGN UP SECTION STYLING */
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 15%;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+}
+
+.signup {
+    display: flex;
+    background-color: #3882F6;
+    width: 100%;
+    padding: 5%;
+    border-radius: 8px;
+    justify-content: space-around;
+    color: white;
+}
+
+.signup button {
+    display: inline-block;
+    background-color: #3882F6;
+    border: 2px white solid;
+    color: white;
+    border-radius: 8px;
+    padding: 0 32px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.signup-text p {
+    margin: 0;
+}
+
+.signup-text .signup-header {
     font-size: 20px;
     font-weight: bold;
 }
