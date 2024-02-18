@@ -10,18 +10,28 @@ body {
 
 .hero-container {
     background-color: #1F2937;
-    padding: 0px 200px;
+    padding: 0px 15%;
 }
 
 .hero-banner {
     display: flex;
     padding-bottom: 48px;
     justify-content: space-between;
-    gap: 16px;
+}
+
+.hero-banner img {
+    flex: 1 1 auto;
+    color: #E5E7EB;
+    height: 250px;
+    max-width: 532px;
 }
 
 .hero-info {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    width: 500px;
 }
 
 .hero-info h1 {
@@ -30,11 +40,27 @@ body {
     font-weight: 900;
     margin-bottom: 0;
     margin-top: 0;
+    flex-grow: 1;
+    height: max-content;
 }
 
 .hero-info p {
     color: #E5E7EB;
-    margin-top: 8px;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+}
+
+.hero-info button {
+    background-color: #3882F6;
+    padding: 4px 32px;
+    color: #E5E7EB;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    height: 32px;
+    align-self: flex-start;
 }
 
 .nav .logo {
@@ -66,24 +92,6 @@ li {
 a {
     text-decoration: none;
     color: #E5E7EB;
-}
-
-img {
-    flex: 1 1 auto;
-    color: #E5E7EB;
-    max-height: 275px;
-    max-width: 532px;
-}
-
-.hero-info button {
-    background-color: #3882F6;
-    padding: 4px 32px;
-    color: #E5E7EB;
-    border: none;
-    font-size: 16px;
-    border-radius: 6px;
-    font-weight: bold;
-    height: 32px;
 }
 
 /* INFOGRAPHIC SECTION STYLING */
