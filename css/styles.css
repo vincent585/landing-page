@@ -40,7 +40,6 @@ body {
     font-weight: 900;
     margin: 0;
     flex-grow: 1;
-    margin-bottom: -1em;
 }
 
 .hero-info p {
@@ -49,7 +48,6 @@ body {
     padding: 0;
     flex-grow: 1;
     font-size: 18px;
-    margin-bottom: -1em;
 }
 
 .hero-info button {
