@@ -110,11 +110,13 @@ img {
 .graphic {
     flex: 1;
     max-width: 200px;
-    color: #464646
+    color: #464646;
+    font-size: 18px;
 }
 
 .graphic img {
     max-width: 200px;
     border: 4px solid #3882F6;
     border-radius: 16px;
+    box-sizing: border-box;
 }
