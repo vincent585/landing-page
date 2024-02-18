@@ -6,6 +6,8 @@ body {
     padding: 0;
 }
 
+/* HEADER AND HERO STYLING */
+
 .hero-container {
     background-color: #1F2937;
     padding: 0px 200px;
@@ -15,10 +17,11 @@ body {
     display: flex;
     padding-bottom: 48px;
     justify-content: space-between;
+    gap: 16px;
 }
 
 .hero-info {
-    flex: 1 1 532px;
+    flex: 1;
 }
 
 .hero-info h1 {
@@ -26,6 +29,7 @@ body {
     color: #f9faf8;
     font-weight: 900;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .hero-info p {
@@ -39,6 +43,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
 }
 
 .nav {
@@ -55,7 +60,7 @@ ul {
 }
 
 li {
-    padding-right: 16px;
+    padding-left: 16px;
 }
 
 a {
@@ -64,9 +69,9 @@ a {
 }
 
 img {
-    flex: 1 1 532px;
+    flex: 1 1 auto;
     color: #E5E7EB;
-    max-height: 250px;
+    max-height: 275px;
     max-width: 532px;
 }
 
@@ -79,4 +84,37 @@ img {
     border-radius: 6px;
     font-weight: bold;
     height: 32px;
+}
+
+/* INFOGRAPHIC SECTION STYLING */
+
+.infographic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+}
+
+.infographic h1 {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937
+}
+
+.graphics-container {
+    display: flex;
+    gap: 48px;
+    padding: 24px;
+}
+
+.graphic {
+    flex: 1;
+    max-width: 200px;
+    color: #464646
+}
+
+.graphic img {
+    max-width: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
 }
